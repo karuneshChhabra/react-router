@@ -5,9 +5,12 @@ import './index.css';
 import Routers from './Routers';
 import reportWebVitals from './reportWebVitals';
 
+
+
 ReactDOM.render(
   <React.StrictMode>
     <Routers />
+    {/* <GetGreeting user={user}/> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
